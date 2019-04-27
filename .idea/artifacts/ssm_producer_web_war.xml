@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ssm-producer-web:war">
+    <output-path>$PROJECT_DIR$/ssm-producer-web/target</output-path>
+    <root id="archive" name="ssm-producer-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ssm-producer-web:war exploded" />
+    </root>
+  </artifact>
+</component>

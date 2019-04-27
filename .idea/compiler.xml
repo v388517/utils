@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ssm-producer-dao" />
+        <module name="ssm-producer-pojo" />
+        <module name="ssm-producer-service" />
+        <module name="ssm-producer-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssm-producer-dao" target="1.8" />
+      <module name="ssm-producer-parent" target="1.8" />
+      <module name="ssm-producer-pojo" target="1.8" />
+      <module name="ssm-producer-service" target="1.8" />
+      <module name="ssm-producer-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
